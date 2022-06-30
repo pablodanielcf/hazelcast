@@ -16,9 +16,9 @@ public class Lab2 {
 
 		HazelcastInstance client = HazelcastClient.newHazelcastClient(clientConfig);
 
-		IMap<String, String> map = client.getMap("my-distributed-map");
+		IMap<String, String> map = client.getMap("companies");
 
-		map.put("4", "Marvin");
+		//map.put("4", "Marvin");
 		
 		//Map.Entry<String, String> entries :map.entrySet();
 
